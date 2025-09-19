@@ -28,12 +28,31 @@ $ make
 $ sudo make install
 
 ```
+<!--
+![Yosys installation](./images/yosys_install_started.png)
+
+![Yosys installation completed](./images/yosys_suscess_install.png) -->
+
+<div align="center">
+  <img src="./images/yosys_install_started.png" alt="Yosys installation" width="600" />
+</div>
+
+<div align="center">
+  <img src="./images/yosys_suscess_install.png" alt="Yosys installation completed" width="600" />
+</div>
+
+
 #### Verification
 You can verify installation with:
 
 ```
-$ yosys -V
+$ yosys --version
 ```
+<!-- ![Yosys verification](./images/yosys_verification.png) -->
+<div align="center">
+  <img src="./images/yosys_verification.png" alt="Yosys verification" width="600" />
+</div>
+
 
 ---
 
@@ -48,12 +67,20 @@ $ sudo apt-get update
 $ sudo apt-get install iverilog
 
 ```
+
+<div align="center">
+  <img src="./images/iverilog_install.png" alt="Icarus Verilog installation" width="600" />
+</div>
+
 #### Verification
 Verify installation by checking the version:
 ```
 $ iverilog -v
 ```
 
+<div align="center">
+  <img src="./images/iverilog_verification.png" alt="Icarus Verilog verification" width="600" />
+</div>
 ---
 
 ### <img src="./images/gtk.png" alt="GTK wave Logo" width="40" />  GTKWave    
@@ -69,12 +96,20 @@ $ sudo apt-get update
 $ sudo apt install gtkwave
 
 ```
+<div align="center">
+  <img src="./images/gtk_install.png" alt="GTKWave installation" width="600" />
+</div>
+
+
 #### Verification
 Verify installation by running:
 ```
 $ gtkwave --version
 ```
 
+<div align="center">
+  <img src="./images/gtk_verification.png" alt="GTKWave verification" width="600" />
+</div>
 
 
 
