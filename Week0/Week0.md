@@ -10,7 +10,7 @@
 ## Tools Overview
 
 ### Yosys
-![Yosys Logo](./images/yosys.png)
+![Yosys Logo](./images/Yosys.png)
 Yosys is an open-source RTL synthesis tool that converts Verilog designs into gate-level netlists. It is widely used for digital logic synthesis and preparing designs for physical implementation.
 
 #### Installation
@@ -29,7 +29,7 @@ You can verify installation with:
 ---
 
 ### Icarus Verilog
-![Icarus Verilog Logo](./images/icarus.png)
+![Icarus Verilog Logo](./images/icarus.jpeg)
 Icarus Verilog is a Verilog simulation and synthesis toolchain used for compiling and simulating Verilog HDL designs, essential for RTL simulation in digital design.
 
 #### Installation
@@ -44,7 +44,8 @@ Verify installation by checking the version:
 ---
 
 ### GTKWave
-![GTKWave Logo](./images/gtk.png)
+<!---![GTKWave Logo](./images/gtk.png) --> <img src="./images/gtk.png" alt="GTK wave Logo" width="80" />
+
 GTKWave is a waveform viewer for digital simulation output. It allows you to visualize signals and debug your simulation results with ease.
 
 #### Installation
