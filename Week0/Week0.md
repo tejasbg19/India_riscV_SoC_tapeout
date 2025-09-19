@@ -3,59 +3,76 @@
 ## System Specifications
 - Minimum 6 GB RAM
 - Minimum 50 GB HDD space
-- Ubuntu Operating System (virtual machine in Oracle VirtualBox or Windows WSL recommended)
+- Ubuntu Operating System above the version 20 (virtual machine in Oracle VirtualBox or Windows WSL recommended)
 
 ---
 
 ## Tools Overview
 
-### Yosys
-![Yosys Logo](./images/Yosys.png)
+### <img src="./images/Yosys.png" alt="Iverilog Logo" width="40" /> Yosys
+<!-- ![Yosys Logo](./images/Yosys.png) -->
 Yosys is an open-source RTL synthesis tool that converts Verilog designs into gate-level netlists. It is widely used for digital logic synthesis and preparing designs for physical implementation.
 
 #### Installation
-To install Yosys on Ubuntu, run:
+To install Yosys on Ubuntu git & make should be installed else just run `sudo apt install git` & `sudo apt-get install make`, then run:
 ```
-csdcds
+$ sudo apt-get update
+$ git clone --recurse-submodules https://github.com/YosysHQ/yosys.git
+$ cd yosys
+sudo apt-get install build-essential clang bison flex \
+libreadline-dev gawk tcl-dev libffi-dev git \
+graphviz xdot pkg-config python3 libboost-system-dev \
+libboost-python-dev libboost-filesystem-dev zlib1g-dev
+$ make config-gcc
+$ make
+$ sudo make install
 
 ```
-
+#### Verification
 You can verify installation with:
 
 ```
-
+$ yosys -V
 ```
 
 ---
 
-### Icarus Verilog
-![Icarus Verilog Logo](./images/icarus.jpeg)
-Icarus Verilog is a Verilog simulation and synthesis toolchain used for compiling and simulating Verilog HDL designs, essential for RTL simulation in digital design.
+### <img src="./images/icarus.jpeg" alt="Iverilog Logo" width="40" /> Icarus Verilog
+<!-- ![Icarus Verilog Logo](./images/icarus.jpeg)
+-->Icarus Verilog is a Verilog simulation and synthesis toolchain used for compiling and simulating Verilog HDL designs, essential for RTL simulation in digital design.
 
 #### Installation
 To install Icarus Verilog, use:
 ```
-```
+$ sudo apt-get update
+$ sudo apt-get install iverilog
 
+```
+#### Verification
 Verify installation by checking the version:
 ```
+$ iverilog -v
 ```
 
 ---
 
-### GTKWave
-<!---![GTKWave Logo](./images/gtk.png) --> <img src="./images/gtk.png" alt="GTK wave Logo" width="80" />
+### <img src="./images/gtk.png" alt="GTK wave Logo" width="40" />  GTKWave    
 
+<!---![GTKWave Logo](./images/gtk.png) --> 
 GTKWave is a waveform viewer for digital simulation output. It allows you to visualize signals and debug your simulation results with ease.
 
 #### Installation
 To install GTKWave, run:
 
 ```
-```
+$ sudo apt-get update
+$ sudo apt install gtkwave
 
+```
+#### Verification
 Verify installation by running:
 ```
+$ gtkwave --version
 ```
 
 
