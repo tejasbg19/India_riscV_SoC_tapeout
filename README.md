@@ -4,7 +4,7 @@ This repository documents my journey and submissions for the India RISC-V Refere
 
 | Week | Task Overview                    | Details & Documents                |
 |------|----------------------------------|------------------------------------|
-| 0    | Yosys, Iverilog & GTKwave Installation | [Week 0](./Week0/Week0.md)         |
+| 0    | Yosys, Icarus verilog & GTKwave Installation | [Week 0](./Week0/Week0.md)         |
 
 
 
