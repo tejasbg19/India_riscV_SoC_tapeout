@@ -28,6 +28,14 @@ $ make
 $ sudo make install
 
 ```
+
+> ⚠️ **Note:**  
+> In all terminal code blocks, the symbol **`$`** at the beginning of a line is **NOT part of the command**.  
+> It only indicates that the command should be run in a terminal.  
+> Do **not** copy the `$` when executing commands — only copy the part after it.  
+
+
+
 <!--
 ![Yosys installation](./images/yosys_install_started.png)
 
