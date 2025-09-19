@@ -1,6 +1,6 @@
 # RISC‑V Reference SoC Tapeout Program
 
-This repository documents my journey and submissions for the India RISC-V Reference SoC Tapeout program. Each week, I tackle hands-on tasks and learn essential skills in end-to-end SoC design.
+This repository documents my journey and submissions for the India RISC-V Reference SoC Tapeout program. <!-- Each week, I tackle hands-on tasks and learn essential skills in end-to-end SoC design. -->
 
 | Week | Task Overview                    | Details & Documents                |
 |------|----------------------------------|------------------------------------|
