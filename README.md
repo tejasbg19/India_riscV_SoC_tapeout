@@ -6,6 +6,7 @@ This repository documents my journey and submissions for the India RISC-V Refere
 |------|---------------------------------------------|------------------------------------------------------|
 | 0    | Yosys, Icarus Verilog & GTKWave Installation | [Week 0](./Week0/Week0.md)                           |
 | 1    | Simulating & Synthesizing the Design using Icarus Verilog & Yosys | [Week 1](https://github.com/tejasbg19/India_riscV_SoC_tapeout_week1) |
+| 2    | Basic Understanding of SoCs & Functional Simulation of BabySoC | [Week2](https://github.com/tejasbg19/India_riscV_SoC_tapeout_week2) |
 
 
 
